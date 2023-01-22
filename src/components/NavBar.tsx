@@ -2,7 +2,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 
 const NavBar = () => {
   return (
-    <nav className="h-24 border-b">
+    <nav className="h-24 border-b-2">
       <div className="flex p-6">
         <a>
           <svg
