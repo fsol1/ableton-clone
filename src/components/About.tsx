@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div>
+    <div className="">
       <div className="h-screen px-20">
         <div className="flex h-5/6 bg-[url('https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=501&ixjsv=1.1.3&q=50')] bg-cover bg-center bg-no-repeat">
           <svg
@@ -31,6 +31,113 @@ const About = () => {
           2001. Our products are used by a community of dedicated musicians,
           sound designers, and artists from across the world.
         </p>
+      </div>
+      <div className="mt-20 mb-32 flex h-fit flex-row-reverse items-center">
+        <div className="flex h-[58vw] w-[58vw] bg-yellow-100">
+          <img
+            className="m-auto mr-[8vw] block w-3/5"
+            src="https://ableton-production.imgix.net/about/photo-2.jpg?dpr=2&fit=crop&h=182&ixjsv=1.1.3"
+            alt=""
+          />
+        </div>
+        <div className="-mr-[7vw] h-[41vw] w-[41vw] bg-[url('https://ableton-production.imgix.net/about/photo-1.jpg?dpr=2&fit=crop&h=281&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
+      </div>
+      <div className="px-20">
+        <h1 className="-mt-20 text-2xl font-semibold leading-loose">
+          Making music isn’t easy. It takes time, effort, and learning. But when
+          you’re in the flow, it’s incredibly rewarding.
+        </h1>
+        <p className="mt-5 text-lg leading-loose text-gray-600">
+          We feel the same way about making Ableton products. The driving force
+          behind Ableton is our passion for what we make, and the people we make
+          it for.
+        </p>
+      </div>
+      <div className="m-20 flex h-[47vw] bg-[url('https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=compress%2Cformat')] bg-cover bg-center bg-no-repeat">
+        <div className="m-auto flex h-28 w-28 rounded-full bg-blue-700">
+          <svg
+            className="m-auto block h-10 pl-2 text-white"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 48 56"
+          >
+            <polygon fill="currentColor" points="0 0 0 56 48 28 0 0"></polygon>
+          </svg>
+        </div>
+      </div>
+      <h2 className="-mt-16 ml-24">Why Ableton - Juanpe Bolivar</h2>
+      <div className="px-20">
+        <h1 className="mt-20 text-2xl font-semibold leading-loose">
+          We are more than 350 people from 30 different countries divided
+          between our headquarters in Berlin and our offices in Los Angeles and
+          Tokyo.
+        </h1>
+        <p className="mt-5 text-lg leading-loose text-gray-600">
+          Most of us are active musicians, producers, and DJs, and many of us
+          use Live and Push every day. We come from a wide range of cultural and
+          professional backgrounds. Some of us have PhDs, some are self-taught,
+          and most of us are somewhere in between. What connects us is the
+          shared belief that each of us has the skills and knowledge to
+          contribute to something big: helping to shape the future of music
+          culture.
+        </p>
+      </div>
+      <div className="mb-18 relative mt-20 flex h-fit items-center">
+        <div className="flex h-[70vw] w-[58vw] flex-col bg-green-200">
+          <img
+            className="ml-[8vw] mt-[8vw] block h-[23vw] w-[30vw] object-cover"
+            src="https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2&fit=crop&h=167&ixjsv=1.1.3"
+            alt=""
+          />
+          <img
+            className="m-auto ml-[8vw] block h-[23vw] w-[30vw]"
+            src="https://ableton-production.imgix.net/about/photo-4.jpg?dpr=2&fit=crop&h=166&ixjsv=1.1.3"
+            alt=""
+          />
+        </div>
+        <div className="absolute left-[48vw] h-[41vw] w-[41vw] bg-[url('https://ableton-production.imgix.net/about/photo-5.jpg?dpr=2&fit=crop&h=278&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
+      </div>
+      <div className="px-20">
+        <h1 className="mt-20 text-2xl font-semibold leading-loose">
+          We believe it takes focus to create truly outstanding instruments. We
+          only work on a few products and we strive to make them great.
+        </h1>
+        <p className="mt-5 text-lg leading-loose text-gray-600">
+          Rather than having a one-size-fits-all process, we try to give our
+          people what they need to work their magic and grow. We’ve learned that
+          achieving the best results comes from building teams that are richly
+          diverse, and thus able to explore problems from a wider set of
+          perspectives. We don’t always agree with each other, but opinion and
+          debate are valued and openly encouraged.
+        </p>
+      </div>
+      <div className="m-20 flex h-[47vw] bg-[url('https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?auto=format&dpr=2&fit=crop&fm=jpg&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
+      <div className="px-20">
+        <h1 className="mt-20 text-2xl font-semibold leading-loose">
+          We’re passionate about what we do, but we’re equally passionate about
+          improving who we are.
+        </h1>
+        <p className="mt-5 text-lg leading-loose text-gray-600">
+          We work hard to foster an environment where people can grow both
+          personally and professionally, and we strive to create a wealth of
+          opportunities to learn from and with each other.
+        </p>
+        <p className="mt-5 text-lg leading-loose text-gray-600">
+          Alongside an internal training program, employees are actively
+          supported in acquiring new knowledge and skills, and coached on
+          applying these in their daily work. In addition, staff-organized
+          development and music salons are a chance to discuss new technologies,
+          production techniques and best practices.
+        </p>
+      </div>
+      <div className="mb-18 relative mt-20 flex h-fit items-center">
+        <div className="mx-auto flex h-[58vw] w-[70vw] bg-purple-300">
+          <img
+            className="my-auto block h-[23vw] w-[30vw] object-cover"
+            src="https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2&fit=crop&h=167&ixjsv=1.1.3"
+            alt=""
+          />
+        </div>
+        <div className="absolute left-[48vw] h-[41vw] w-[41vw] bg-[url('https://ableton-production.imgix.net/about/photo-5.jpg?dpr=2&fit=crop&h=278&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
       </div>
     </div>
   );
