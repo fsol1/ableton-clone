@@ -1,3 +1,5 @@
+import { IoIosArrowForward } from "react-icons/io";
+
 const About = () => {
   return (
     <div className="">
@@ -132,12 +134,41 @@ const About = () => {
       <div className="mb-18 relative mt-20 flex h-fit items-center">
         <div className="mx-auto flex h-[58vw] w-[70vw] bg-purple-300">
           <img
-            className="my-auto block h-[23vw] w-[30vw] object-cover"
-            src="https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2&fit=crop&h=167&ixjsv=1.1.3"
+            className="my-auto -ml-[8vw] block h-[25vw] w-[33vw] object-cover"
+            src="https://ableton-production.imgix.net/about/photo-6-a.jpg?dpr=2&fit=crop&h=159&ixjsv=1.1.3"
             alt=""
           />
         </div>
-        <div className="absolute left-[48vw] h-[41vw] w-[41vw] bg-[url('https://ableton-production.imgix.net/about/photo-5.jpg?dpr=2&fit=crop&h=278&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
+        <div className="absolute right-0 h-[41vw] w-[41vw] bg-[url('https://ableton-production.imgix.net/about/photo-7.jpg?dpr=2&fit=crop&h=265&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
+      </div>
+      <div className="px-20">
+        <h1 className="mt-20 text-2xl font-semibold leading-loose">
+          We want our employees to love it here. Since we’re looking for
+          exceptional talent from around the world, we will do everything we can
+          to make your transition as easy as possible.
+        </h1>
+        <p className="mt-5 text-lg leading-loose text-gray-600">
+          If you're joining us in Berlin, we'll help with relocation and
+          paperwork. We’ll even provide you with free German or English lessons.
+          Plus, working in Germany means you can expect comprehensive health
+          insurance for you and your family, as well as generous maternity and
+          paternity leave. Office hours are flexible, but it’s not all work; we
+          have several company and team outings throughout the year as well as a
+          variety of fun, informal small-group activities.
+        </p>
+      </div>
+      <div className="m-20 mb-0 flex h-[50vw] bg-[url('https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&dpr=2&fit=crop&h=360&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
+      <div className="mx-20 h-[33vw] bg-indigo-300">
+        <div className="p-20">
+          <h1 className="text-2xl font-semibold leading-loose">
+            We want our employees to love it here. Since we’re looking for
+            exceptional talent from around the world, we will do everything we
+            can to make your transition as easy as possible.
+          </h1>
+          <h1 className="flex items-center text-2xl font-semibold leading-loose text-blue-700">
+            See latest jobs <IoIosArrowForward />
+          </h1>
+        </div>
       </div>
     </div>
   );
