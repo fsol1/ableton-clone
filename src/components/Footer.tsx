@@ -168,13 +168,39 @@ const Footer = () => {
         </div>
         <div className="pt-10">
           <h1 className="text-lg font-semibold">Language and Location</h1>
-          <button className="flex items-center text-lg">
-            Find Distributors
-            <IoIosArrowForward className="text-sm" />
-          </button>
-          <button className="flex items-center text-lg">
-            Try Push in-store <IoIosArrowForward className="text-sm" />
-          </button>
+          <select name="language" id="" className="mt-3 bg-zinc-100 p-2">
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="ja">日本語</option>
+            <option value="zh-cn">简体中文</option>
+          </select>
+          <select name="location" id="" className="bg-zinc-100 p-2">
+            <option value="us">United States</option>
+          </select>
+        </div>
+        <div className="mt-10 flex flex-col items-start gap-3">
+          <button className="font-semibold">Contact Us</button>
+          <button className="font-semibold">Press Resources</button>
+          <button className="font-semibold">Legal Info</button>
+          <button className="font-semibold">Privacy Policy</button>
+          <button className="font-semibold">Cookie Settings</button>
+          <button className="font-semibold">Imprint</button>
+        </div>
+        <div className="mt-20 flex items-center">
+          <svg
+            role="img"
+            aria-labelledby="logo"
+            className="h-7 w-16"
+            xmlns="http://www.w3.org/2000/svg"
+            width="45"
+            height="21"
+            viewBox="0 0 45 21"
+          >
+            <title id="logo">Ableton Homepage</title>
+            <path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path>
+          </svg>
+          <h1 className="ml-5 font-semibold">Made in Berlin</h1>
         </div>
       </div>
     </footer>
