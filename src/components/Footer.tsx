@@ -26,11 +26,11 @@ const Footer = () => {
         </div>
         <div className="pt-5">
           <input
-            className="h-10 w-3/4 bg-zinc-100 pl-3 text-lg"
+            className="h-10 w-3/4 bg-[#eee] pl-3 text-lg"
             type="email"
             placeholder="Email Address"
           />
-          <button className="bg-blue-700 p-2 px-5 text-white">Sign up</button>
+          <button className="bg-[blue] p-2 px-5 text-white">Sign up</button>
         </div>
         <div className="pt-10">
           <button className="flex items-center text-lg">
@@ -168,14 +168,14 @@ const Footer = () => {
         </div>
         <div className="pt-10">
           <h1 className="text-lg font-semibold">Language and Location</h1>
-          <select name="language" id="" className="mt-3 bg-zinc-100 p-2">
+          <select name="language" id="" className="mt-3 bg-[#eee] p-2">
             <option value="en">English</option>
             <option value="de">Deutsch</option>
             <option value="fr">Français</option>
             <option value="ja">日本語</option>
             <option value="zh-cn">简体中文</option>
           </select>
-          <select name="location" id="" className="bg-zinc-100 p-2">
+          <select name="location" id="" className="bg-[#eee] p-2">
             <option value="us">United States</option>
           </select>
         </div>

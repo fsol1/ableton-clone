@@ -22,9 +22,9 @@ const About = () => {
       </div>
       <div className="px-20">
         <h1 className="-mt-20 text-2xl font-semibold leading-loose">
-          We make <span className="text-blue-700">Live</span>,{" "}
-          <span className="text-blue-700">Push</span> and{" "}
-          <span className="text-blue-700">Link</span> — unique software and
+          We make <span className="text-[blue]">Live</span>,{" "}
+          <span className="text-[blue]">Push</span> and{" "}
+          <span className="text-[blue]">Link</span> — unique software and
           hardware for music creation and performance. With these products, our
           community of users creates amazing things.
         </h1>
@@ -35,7 +35,7 @@ const About = () => {
         </p>
       </div>
       <div className="mt-20 mb-32 flex h-fit flex-row-reverse items-center">
-        <div className="flex h-[58vw] w-[58vw] bg-yellow-100">
+        <div className="flex h-[58vw] w-[58vw] bg-[#FBFFA7]">
           <img
             className="m-auto mr-[8vw] block w-3/5"
             src="https://ableton-production.imgix.net/about/photo-2.jpg?dpr=2&fit=crop&h=182&ixjsv=1.1.3"
@@ -56,7 +56,7 @@ const About = () => {
         </p>
       </div>
       <div className="m-20 flex h-[47vw] bg-[url('https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=compress%2Cformat')] bg-cover bg-center bg-no-repeat">
-        <div className="m-auto flex h-28 w-28 rounded-full bg-blue-700">
+        <div className="m-auto flex h-28 w-28 rounded-full bg-[blue]">
           <svg
             className="m-auto block h-10 pl-2 text-white"
             xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ const About = () => {
         </p>
       </div>
       <div className="mb-18 relative mt-20 flex h-fit items-center">
-        <div className="flex h-[70vw] w-[58vw] flex-col bg-green-200">
+        <div className="flex h-[70vw] w-[58vw] flex-col bg-[#B6FFC0]">
           <img
             className="ml-[8vw] mt-[8vw] block h-[23vw] w-[30vw] object-cover"
             src="https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2&fit=crop&h=167&ixjsv=1.1.3"
@@ -132,7 +132,7 @@ const About = () => {
         </p>
       </div>
       <div className="mb-18 relative mt-20 flex h-fit items-center">
-        <div className="mx-auto flex h-[58vw] w-[70vw] bg-purple-300">
+        <div className="mx-auto flex h-[58vw] w-[70vw] bg-[#D5B3FF]">
           <img
             className="my-auto -ml-[8vw] block h-[25vw] w-[33vw] object-cover"
             src="https://ableton-production.imgix.net/about/photo-6-a.jpg?dpr=2&fit=crop&h=159&ixjsv=1.1.3"
@@ -158,13 +158,13 @@ const About = () => {
         </p>
       </div>
       <div className="m-20 mb-0 flex h-[50vw] bg-[url('https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&dpr=2&fit=crop&h=360&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
-      <div className="mx-20 h-[33vw] bg-indigo-300">
+      <div className="mx-20 h-[33vw] bg-[#B1C5FF]">
         <div className="p-20">
           <h1 className="text-2xl font-semibold leading-loose">
             We’re really proud of the work we’ve done so far. But there’s so
             much more to come. If you’d like to be a part of it, please join us.
           </h1>
-          <h1 className="flex items-center text-2xl font-semibold leading-loose text-blue-700">
+          <h1 className="flex items-center text-2xl font-semibold leading-loose text-[blue]">
             See latest jobs <IoIosArrowForward className="text-lg" />
           </h1>
         </div>
