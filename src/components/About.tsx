@@ -2,7 +2,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const About = () => {
   return (
-    <div className="">
+    <div>
       <div className="h-screen px-20">
         <div className="flex h-5/6 bg-[url('https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=501&ixjsv=1.1.3&q=50')] bg-cover bg-center bg-no-repeat">
           <svg
@@ -161,12 +161,11 @@ const About = () => {
       <div className="mx-20 h-[33vw] bg-indigo-300">
         <div className="p-20">
           <h1 className="text-2xl font-semibold leading-loose">
-            We want our employees to love it here. Since we’re looking for
-            exceptional talent from around the world, we will do everything we
-            can to make your transition as easy as possible.
+            We’re really proud of the work we’ve done so far. But there’s so
+            much more to come. If you’d like to be a part of it, please join us.
           </h1>
           <h1 className="flex items-center text-2xl font-semibold leading-loose text-blue-700">
-            See latest jobs <IoIosArrowForward />
+            See latest jobs <IoIosArrowForward className="text-lg" />
           </h1>
         </div>
       </div>
