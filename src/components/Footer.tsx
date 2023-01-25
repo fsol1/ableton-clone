@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const Footer = () => {
   return (
     <footer className="mt-20 border-t-2 lg:mt-[8vw]">
-      <div className="p-20 lg:p-[8vw] lg:pb-0">
+      <div className="p-20 lg:pl-[8vw] lg:pb-0">
         <svg
           className="block h-10 lg:h-16"
           viewBox="0 0 430 104"
