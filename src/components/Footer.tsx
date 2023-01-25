@@ -3,9 +3,9 @@ import { IoIosArrowForward } from "react-icons/io";
 const Footer = () => {
   return (
     <footer className="mt-20 border-t-2 lg:mt-[8vw]">
-      <div className="p-20">
+      <div className="p-20 lg:p-[8vw] lg:pb-0">
         <svg
-          className="block h-10"
+          className="block h-10 lg:h-16"
           viewBox="0 0 430 104"
           preserveAspectRatio="xMinYMid"
         >
@@ -17,190 +17,207 @@ const Footer = () => {
             ></path>
           </g>
         </svg>
-        <div className="pt-12">
-          <h1 className="text-lg font-semibold">Sign up to our newsletter</h1>
-          <p className="text-lg">
-            Enter your email address to stay up to date with the latest offers,
-            tutorials, downloads, surveys and more.
-          </p>
-        </div>
-        <div className="pt-5">
-          <input
-            className="h-10 w-3/4 bg-[#eee] pl-3 text-lg"
-            type="email"
-            placeholder="Email Address"
-          />
-          <button className="bg-[blue] p-2 px-5 text-white">Sign up</button>
-        </div>
-        <div className="pt-10">
-          <button className="flex items-center text-lg">
-            Register Live or Push <IoIosArrowForward className="text-sm" />
-          </button>
-          <button className="flex items-center text-lg">
-            About Ableton <IoIosArrowForward className="text-sm" />
-          </button>
-          <button className="flex items-center text-lg">
-            Jobs <IoIosArrowForward className="text-sm" />
-          </button>
-        </div>
-        <div className="mt-5 flex gap-3">
-          <div className="bg-[#3477f2]">
-            <a href="">
-              <svg
-                className="h-14"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 40 40"
-                role="img"
-                focusable="false"
-              >
-                <title>Facebook</title>
-                <path
-                  d="M33.334 20a13.333 13.333 0 10-15.417 13.167v-9.312h-3.385V20h3.385v-2.933c0-3.342 1.991-5.187 5.036-5.187a20.5 20.5 0 012.985.26v3.277h-1.681a1.927 1.927 0 00-2.173 2.082v2.5h3.7l-.591 3.854h-3.109v9.314A13.337 13.337 0 0033.334 20z"
-                  fill="#fff"
-                ></path>
-                <path
-                  d="M25.19 23.854L25.781 20h-3.7v-2.5a1.927 1.927 0 012.173-2.082h1.681v-3.283a20.5 20.5 0 00-2.985-.26c-3.046 0-5.036 1.846-5.036 5.188v2.938h-3.383v3.854h3.385v9.32a13.473 13.473 0 004.167 0v-9.317z"
-                  fill="#3477f2"
-                ></path>
-              </svg>
-            </a>
+      </div>
+      <div className="p-20 lg:p-[8vw]">
+        <div className="lg:grid lg:grid-cols-3">
+          <div className="pt-12 lg:pt-0">
+            <h1 className="text-lg font-semibold">Sign up to our newsletter</h1>
+            <p className="text-lg">
+              Enter your email address to stay up to date with the latest
+              offers, tutorials, downloads, surveys and more.
+            </p>
+
+            <div className="flex pt-5">
+              <input
+                className="h-12 w-full bg-[#eee] pl-3 text-lg"
+                type="email"
+                placeholder="Email Address"
+              />
+              <button className="w-32 bg-[blue] p-2 px-5 text-lg text-white">
+                Sign up
+              </button>
+            </div>
           </div>
-          <div className="bg-[#1DA1F2]">
-            <svg
-              className="h-14"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 40 40"
-              role="img"
-              focusable="false"
+          <div className="pt-10 lg:-order-1 lg:pt-0">
+            <button className="flex items-center text-lg">
+              Register Live or Push <IoIosArrowForward className="text-sm" />
+            </button>
+            <button className="flex items-center text-lg">
+              About Ableton <IoIosArrowForward className="text-sm" />
+            </button>
+            <button className="flex items-center text-lg">
+              Jobs <IoIosArrowForward className="text-sm" />
+            </button>
+
+            <div className="mt-5 flex gap-3">
+              <div className="bg-[#3477f2]">
+                <a href="">
+                  <svg
+                    className="h-14"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 40 40"
+                    role="img"
+                    focusable="false"
+                  >
+                    <title>Facebook</title>
+                    <path
+                      d="M33.334 20a13.333 13.333 0 10-15.417 13.167v-9.312h-3.385V20h3.385v-2.933c0-3.342 1.991-5.187 5.036-5.187a20.5 20.5 0 012.985.26v3.277h-1.681a1.927 1.927 0 00-2.173 2.082v2.5h3.7l-.591 3.854h-3.109v9.314A13.337 13.337 0 0033.334 20z"
+                      fill="#fff"
+                    ></path>
+                    <path
+                      d="M25.19 23.854L25.781 20h-3.7v-2.5a1.927 1.927 0 012.173-2.082h1.681v-3.283a20.5 20.5 0 00-2.985-.26c-3.046 0-5.036 1.846-5.036 5.188v2.938h-3.383v3.854h3.385v9.32a13.473 13.473 0 004.167 0v-9.317z"
+                      fill="#3477f2"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <div className="bg-[#1DA1F2]">
+                <svg
+                  className="h-14"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 40 40"
+                  role="img"
+                  focusable="false"
+                >
+                  <title>Twitter</title>
+                  <path
+                    d="M15.362 30.159a14.5 14.5 0 0014.594-14.594c0-.222 0-.443-.015-.663a10.436 10.436 0 002.559-2.655 10.238 10.238 0 01-2.946.807 5.147 5.147 0 002.255-2.837 10.279 10.279 0 01-3.257 1.245 5.134 5.134 0 00-8.741 4.678A14.562 14.562 0 019.24 10.781a5.133 5.133 0 001.588 6.847 5.091 5.091 0 01-2.328-.642v.065a5.131 5.131 0 004.115 5.028 5.121 5.121 0 01-2.316.088 5.135 5.135 0 004.792 3.562 10.292 10.292 0 01-6.37 2.2 10.441 10.441 0 01-1.221-.074 14.521 14.521 0 007.862 2.3"
+                    fill="#fff"
+                  ></path>
+                </svg>
+              </div>
+              <div className="bg-[#ff001d]">
+                <svg
+                  className="h-14"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 40 40"
+                  role="img"
+                  focusable="false"
+                >
+                  <title>Youtube</title>
+                  <path
+                    d="M32.776 13.601a3.351 3.351 0 00-2.358-2.373C28.339 10.667 20 10.667 20 10.667s-8.339 0-10.418.561a3.351 3.351 0 00-2.358 2.373 35.146 35.146 0 00-.557 6.46 35.146 35.146 0 00.557 6.46 3.351 3.351 0 002.358 2.373c2.08.561 10.418.561 10.418.561s8.339 0 10.418-.561a3.351 3.351 0 002.358-2.373 35.146 35.146 0 00.557-6.46 35.146 35.146 0 00-.557-6.46z"
+                    fill="#fff"
+                  ></path>
+                  <path
+                    d="M17.273 24.025l6.97-3.961-6.97-3.969z"
+                    fill="#ff001d"
+                  ></path>
+                </svg>
+              </div>
+              <div className="bg-[#F77737]">
+                <svg
+                  className="h-14"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 40 40"
+                  role="img"
+                  focusable="false"
+                >
+                  <title>Instagram</title>
+                  <g transform="translate(-336 -285)">
+                    <path
+                      d="M356 294.069c3.56 0 3.982.014 5.388.078a7.38 7.38 0 012.476.459 4.416 4.416 0 012.53 2.53 7.38 7.38 0 01.459 2.476c.064 1.406.078 1.828.078 5.388s-.014 3.982-.078 5.388a7.38 7.38 0 01-.459 2.476 4.416 4.416 0 01-2.53 2.53 7.38 7.38 0 01-2.476.459c-1.406.064-1.827.078-5.388.078s-3.982-.014-5.388-.078a7.38 7.38 0 01-2.476-.459 4.416 4.416 0 01-2.53-2.53 7.38 7.38 0 01-.459-2.476c-.064-1.406-.078-1.828-.078-5.388s.014-3.982.078-5.388a7.38 7.38 0 01.459-2.476 4.416 4.416 0 012.53-2.53 7.38 7.38 0 012.476-.459c1.406-.064 1.828-.078 5.388-.078m0-2.4c-3.621 0-4.075.015-5.5.08a9.787 9.787 0 00-3.237.62 6.818 6.818 0 00-3.9 3.9 9.787 9.787 0 00-.62 3.237c-.065 1.422-.08 1.876-.08 5.5s.015 4.075.08 5.5a9.787 9.787 0 00.62 3.237 6.818 6.818 0 003.9 3.9 9.787 9.787 0 003.237.62c1.422.065 1.876.08 5.5.08s4.075-.015 5.5-.08a9.787 9.787 0 003.237-.62 6.818 6.818 0 003.9-3.9 9.787 9.787 0 00.62-3.237c.065-1.422.08-1.876.08-5.5s-.015-4.075-.08-5.5a9.787 9.787 0 00-.62-3.237 6.818 6.818 0 00-3.9-3.9 9.787 9.787 0 00-3.237-.62c-1.422-.065-1.876-.08-5.5-.08z"
+                      fill="#fff"
+                    ></path>
+                    <path
+                      d="M356 298.153a6.847 6.847 0 106.847 6.847 6.847 6.847 0 00-6.847-6.847zm0 11.291a4.444 4.444 0 114.444-4.444 4.444 4.444 0 01-4.444 4.444z"
+                      fill="#fff"
+                    ></path>
+                    <circle
+                      cx="1.6"
+                      cy="1.6"
+                      r="1.6"
+                      transform="translate(361.517 296.283)"
+                      fill="#fff"
+                    ></circle>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div className="pt-10 lg:-order-1 lg:pt-0">
+            <h1 className="text-lg font-semibold">Education</h1>
+            <button className="flex items-center text-lg">
+              Offers for students and teachers{" "}
+              <IoIosArrowForward className="text-sm" />
+            </button>
+            <button className="flex items-center text-lg">
+              Ableton for the Classroom{" "}
+              <IoIosArrowForward className="text-sm" />
+            </button>
+            <button className="flex items-center text-lg">
+              Ableton for Colleges and Universities{" "}
+              <IoIosArrowForward className="text-sm" />
+            </button>
+          </div>
+          <div className="pt-10">
+            <h1 className="text-lg font-semibold">Community</h1>
+            <button className="flex items-center text-lg">
+              Find Ableton User Groups
+              <IoIosArrowForward className="text-sm" />
+            </button>
+            <button className="flex items-center text-lg">
+              Find Certified Training <IoIosArrowForward className="text-sm" />
+            </button>
+            <button className="flex items-center text-lg">
+              Become a Certified Trainer
+              <IoIosArrowForward className="text-sm" />
+            </button>
+          </div>
+          <div className="pt-10">
+            <h1 className="text-lg font-semibold">Distributors</h1>
+            <button className="flex items-center text-lg">
+              Find Distributors
+              <IoIosArrowForward className="text-sm" />
+            </button>
+            <button className="flex items-center text-lg">
+              Try Push in-store <IoIosArrowForward className="text-sm" />
+            </button>
+          </div>
+          <div className="pt-10">
+            <h1 className="text-lg font-semibold">Language and Location</h1>
+            <select
+              name="language"
+              id=""
+              className="mt-3 mr-1 h-10 w-36 bg-[#eee] p-2"
             >
-              <title>Twitter</title>
-              <path
-                d="M15.362 30.159a14.5 14.5 0 0014.594-14.594c0-.222 0-.443-.015-.663a10.436 10.436 0 002.559-2.655 10.238 10.238 0 01-2.946.807 5.147 5.147 0 002.255-2.837 10.279 10.279 0 01-3.257 1.245 5.134 5.134 0 00-8.741 4.678A14.562 14.562 0 019.24 10.781a5.133 5.133 0 001.588 6.847 5.091 5.091 0 01-2.328-.642v.065a5.131 5.131 0 004.115 5.028 5.121 5.121 0 01-2.316.088 5.135 5.135 0 004.792 3.562 10.292 10.292 0 01-6.37 2.2 10.441 10.441 0 01-1.221-.074 14.521 14.521 0 007.862 2.3"
-                fill="#fff"
-              ></path>
-            </svg>
+              <option value="en">English</option>
+              <option value="de">Deutsch</option>
+              <option value="fr">Français</option>
+              <option value="ja">日本語</option>
+              <option value="zh-cn">简体中文</option>
+            </select>
+            <select name="location" id="" className="h-10 w-56 bg-[#eee] p-2">
+              <option value="us">United States</option>
+            </select>
           </div>
-          <div className="bg-[#ff001d]">
+        </div>
+        <div className="lg:mt-[5vw] lg:flex lg:items-center lg:justify-between">
+          <div className="mt-10 flex flex-col items-start gap-3 lg:mt-0 lg:flex-row">
+            <button className="font-semibold">Contact Us</button>
+            <button className="font-semibold">Press Resources</button>
+            <button className="font-semibold">Legal Info</button>
+            <button className="font-semibold">Privacy Policy</button>
+            <button className="font-semibold">Cookie Settings</button>
+            <button className="font-semibold">Imprint</button>
+          </div>
+          <div className="mt-20 flex items-center lg:mt-0 lg:flex-row-reverse">
             <svg
-              className="h-14"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 40 40"
               role="img"
-              focusable="false"
-            >
-              <title>Youtube</title>
-              <path
-                d="M32.776 13.601a3.351 3.351 0 00-2.358-2.373C28.339 10.667 20 10.667 20 10.667s-8.339 0-10.418.561a3.351 3.351 0 00-2.358 2.373 35.146 35.146 0 00-.557 6.46 35.146 35.146 0 00.557 6.46 3.351 3.351 0 002.358 2.373c2.08.561 10.418.561 10.418.561s8.339 0 10.418-.561a3.351 3.351 0 002.358-2.373 35.146 35.146 0 00.557-6.46 35.146 35.146 0 00-.557-6.46z"
-                fill="#fff"
-              ></path>
-              <path
-                d="M17.273 24.025l6.97-3.961-6.97-3.969z"
-                fill="#ff001d"
-              ></path>
-            </svg>
-          </div>
-          <div className="bg-[#F77737]">
-            <svg
-              className="h-14"
+              aria-labelledby="logo"
+              className="h-7 w-16"
               xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 40 40"
-              role="img"
-              focusable="false"
+              width="45"
+              height="21"
+              viewBox="0 0 45 21"
             >
-              <title>Instagram</title>
-              <g transform="translate(-336 -285)">
-                <path
-                  d="M356 294.069c3.56 0 3.982.014 5.388.078a7.38 7.38 0 012.476.459 4.416 4.416 0 012.53 2.53 7.38 7.38 0 01.459 2.476c.064 1.406.078 1.828.078 5.388s-.014 3.982-.078 5.388a7.38 7.38 0 01-.459 2.476 4.416 4.416 0 01-2.53 2.53 7.38 7.38 0 01-2.476.459c-1.406.064-1.827.078-5.388.078s-3.982-.014-5.388-.078a7.38 7.38 0 01-2.476-.459 4.416 4.416 0 01-2.53-2.53 7.38 7.38 0 01-.459-2.476c-.064-1.406-.078-1.828-.078-5.388s.014-3.982.078-5.388a7.38 7.38 0 01.459-2.476 4.416 4.416 0 012.53-2.53 7.38 7.38 0 012.476-.459c1.406-.064 1.828-.078 5.388-.078m0-2.4c-3.621 0-4.075.015-5.5.08a9.787 9.787 0 00-3.237.62 6.818 6.818 0 00-3.9 3.9 9.787 9.787 0 00-.62 3.237c-.065 1.422-.08 1.876-.08 5.5s.015 4.075.08 5.5a9.787 9.787 0 00.62 3.237 6.818 6.818 0 003.9 3.9 9.787 9.787 0 003.237.62c1.422.065 1.876.08 5.5.08s4.075-.015 5.5-.08a9.787 9.787 0 003.237-.62 6.818 6.818 0 003.9-3.9 9.787 9.787 0 00.62-3.237c.065-1.422.08-1.876.08-5.5s-.015-4.075-.08-5.5a9.787 9.787 0 00-.62-3.237 6.818 6.818 0 00-3.9-3.9 9.787 9.787 0 00-3.237-.62c-1.422-.065-1.876-.08-5.5-.08z"
-                  fill="#fff"
-                ></path>
-                <path
-                  d="M356 298.153a6.847 6.847 0 106.847 6.847 6.847 6.847 0 00-6.847-6.847zm0 11.291a4.444 4.444 0 114.444-4.444 4.444 4.444 0 01-4.444 4.444z"
-                  fill="#fff"
-                ></path>
-                <circle
-                  cx="1.6"
-                  cy="1.6"
-                  r="1.6"
-                  transform="translate(361.517 296.283)"
-                  fill="#fff"
-                ></circle>
-              </g>
+              <title id="logo">Ableton Homepage</title>
+              <path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path>
             </svg>
+            <h1 className="ml-5 font-semibold lg:ml-0 lg:mr-5">
+              Made in Berlin
+            </h1>
           </div>
-        </div>
-        <div className="pt-10">
-          <h1 className="text-lg font-semibold">Education</h1>
-          <button className="flex items-center text-lg">
-            Offers for students and teachers{" "}
-            <IoIosArrowForward className="text-sm" />
-          </button>
-          <button className="flex items-center text-lg">
-            Ableton for the Classroom <IoIosArrowForward className="text-sm" />
-          </button>
-          <button className="flex items-center text-lg">
-            Ableton for Colleges and Universities{" "}
-            <IoIosArrowForward className="text-sm" />
-          </button>
-        </div>
-        <div className="pt-10">
-          <h1 className="text-lg font-semibold">Community</h1>
-          <button className="flex items-center text-lg">
-            Find Ableton User Groups
-            <IoIosArrowForward className="text-sm" />
-          </button>
-          <button className="flex items-center text-lg">
-            Find Certified Training <IoIosArrowForward className="text-sm" />
-          </button>
-          <button className="flex items-center text-lg">
-            Become a Certified Trainer
-            <IoIosArrowForward className="text-sm" />
-          </button>
-        </div>
-        <div className="pt-10">
-          <h1 className="text-lg font-semibold">Distributors</h1>
-          <button className="flex items-center text-lg">
-            Find Distributors
-            <IoIosArrowForward className="text-sm" />
-          </button>
-          <button className="flex items-center text-lg">
-            Try Push in-store <IoIosArrowForward className="text-sm" />
-          </button>
-        </div>
-        <div className="pt-10">
-          <h1 className="text-lg font-semibold">Language and Location</h1>
-          <select name="language" id="" className="mt-3 bg-[#eee] p-2">
-            <option value="en">English</option>
-            <option value="de">Deutsch</option>
-            <option value="fr">Français</option>
-            <option value="ja">日本語</option>
-            <option value="zh-cn">简体中文</option>
-          </select>
-          <select name="location" id="" className="bg-[#eee] p-2">
-            <option value="us">United States</option>
-          </select>
-        </div>
-        <div className="mt-10 flex flex-col items-start gap-3">
-          <button className="font-semibold">Contact Us</button>
-          <button className="font-semibold">Press Resources</button>
-          <button className="font-semibold">Legal Info</button>
-          <button className="font-semibold">Privacy Policy</button>
-          <button className="font-semibold">Cookie Settings</button>
-          <button className="font-semibold">Imprint</button>
-        </div>
-        <div className="mt-20 flex items-center">
-          <svg
-            role="img"
-            aria-labelledby="logo"
-            className="h-7 w-16"
-            xmlns="http://www.w3.org/2000/svg"
-            width="45"
-            height="21"
-            viewBox="0 0 45 21"
-          >
-            <title id="logo">Ableton Homepage</title>
-            <path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path>
-          </svg>
-          <h1 className="ml-5 font-semibold">Made in Berlin</h1>
         </div>
       </div>
     </footer>
