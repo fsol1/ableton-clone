@@ -20,7 +20,7 @@ const About = () => {
           </svg>
         </div>
       </div>
-      <div className="px-20 pt-[7vw] lg:px-[17vw]">
+      <div className="px-20 pt-[7vw] lg:px-[17vw] xl:px-[25vw] xl:pt-[9vw]">
         <h1 className="-mt-[9vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           We make <span className="text-[blue]">Live</span>,{" "}
           <span className="text-[blue]">Push</span> and{" "}
@@ -44,7 +44,7 @@ const About = () => {
         </div>
         <div className="-mr-[7vw] h-[41vw] w-[41vw] bg-[url('https://ableton-production.imgix.net/about/photo-1.jpg?dpr=2&fit=crop&h=281&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
       </div>
-      <div className="px-20 pt-[7vw] lg:px-[17vw]">
+      <div className="px-20 pt-[7vw] lg:px-[17vw] xl:px-[25vw] xl:pt-[9vw]">
         <h1 className="-mt-[7vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           Making music isn’t easy. It takes time, effort, and learning. But when
           you’re in the flow, it’s incredibly rewarding.
@@ -55,7 +55,7 @@ const About = () => {
           it for.
         </p>
       </div>
-      <div className="mx-[8vw] mt-[8vw] flex h-[47vw] bg-[url('https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=compress%2Cformat')] bg-cover bg-center bg-no-repeat lg:mx-[17vw] lg:h-[37vw]">
+      <div className="mx-[8vw] mt-[8vw] flex h-[47vw] bg-[url('https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=compress%2Cformat')] bg-cover bg-center bg-no-repeat lg:mx-[17vw] lg:h-[37vw] xl:mx-[25vw] xl:h-[29vw]">
         <div className="m-auto flex h-28 w-28 rounded-full bg-[blue]">
           <svg
             className="m-auto block h-10 pl-2 text-white"
@@ -66,8 +66,10 @@ const About = () => {
           </svg>
         </div>
       </div>
-      <h2 className="mt-4 ml-24 lg:ml-[18vw]">Why Ableton - Juanpe Bolivar</h2>
-      <div className="px-20 pt-[0vw] lg:px-[17vw]">
+      <h2 className="mt-4 ml-24 lg:ml-[18vw] xl:ml-[26vw]">
+        Why Ableton - Juanpe Bolivar
+      </h2>
+      <div className="px-20 pt-[0vw] lg:px-[17vw] xl:px-[25vw] xl:pt-[2vw]">
         <h1 className="mt-[8vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           We are more than 350 people from 30 different countries divided
           between our headquarters in Berlin and our offices in Los Angeles and
@@ -98,7 +100,7 @@ const About = () => {
         </div>
         <div className="absolute left-[48vw] h-[41vw] w-[41vw] bg-[url('https://ableton-production.imgix.net/about/photo-5.jpg?dpr=2&fit=crop&h=278&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
       </div>
-      <div className="px-20 lg:px-[17vw]">
+      <div className="px-20 lg:px-[17vw] xl:px-[25vw]">
         <h1 className="mt-[8vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           We believe it takes focus to create truly outstanding instruments. We
           only work on a few products and we strive to make them great.
@@ -113,7 +115,7 @@ const About = () => {
         </p>
       </div>
       <div className="mx-[8vw] mt-[8vw] flex h-[47vw] bg-[url('https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?auto=format&dpr=2&fit=crop&fm=jpg&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
-      <div className="px-20 lg:px-[17vw]">
+      <div className="px-20 lg:px-[17vw] xl:px-[25vw]">
         <h1 className="mt-[8vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           We’re passionate about what we do, but we’re equally passionate about
           improving who we are.
@@ -141,7 +143,7 @@ const About = () => {
         </div>
         <div className="absolute right-0 h-[41vw] w-[41vw] bg-[url('https://ableton-production.imgix.net/about/photo-7.jpg?dpr=2&fit=crop&h=265&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
       </div>
-      <div className="px-20 lg:px-[15vw]">
+      <div className="px-20 lg:px-[15vw] xl:px-[25vw]">
         <h1 className="mt-[8vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           We want our employees to love it here. Since we’re looking for
           exceptional talent from around the world, we will do everything we can
@@ -157,16 +159,19 @@ const About = () => {
           variety of fun, informal small-group activities.
         </p>
       </div>
-      <div className="mx-[8vw] mt-[8vw] mb-0 flex h-[50vw] bg-[url('https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&dpr=2&fit=crop&h=360&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
-      <div className="mx-[8vw] h-[33vw] bg-[#B1C5FF] lg:h-[29vw]">
-        <div className="p-20 lg:px-[8vw] lg:pt-[8vw]">
-          <h1 className="text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
-            We’re really proud of the work we’ve done so far. But there’s so
-            much more to come. If you’d like to be a part of it, please join us.
-          </h1>
-          <h1 className="flex items-center text-2xl font-semibold leading-loose text-[blue] lg:text-4xl lg:leading-relaxed">
-            See latest jobs <IoIosArrowForward className="text-lg" />
-          </h1>
+      <div className="mt-[8vw] flex flex-col xl:flex-row">
+        <div className="mx-[8vw] mt-[8vw] mb-0 flex h-[50vw] bg-[url('https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&dpr=2&fit=crop&h=360&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat xl:mt-0 xl:mr-0 xl:h-[42vw] xl:w-[45vw] xl:bg-right"></div>
+        <div className="mx-[8vw] h-[33vw] bg-[#B1C5FF] lg:h-[29vw] xl:ml-0 xl:h-[42vw] xl:w-[45vw]">
+          <div className="p-20 lg:px-[8vw] lg:pt-[8vw] xl:pt-[11vw]">
+            <h1 className="text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
+              We’re really proud of the work we’ve done so far. But there’s so
+              much more to come. If you’d like to be a part of it, please join
+              us.
+            </h1>
+            <h1 className="flex items-center text-2xl font-semibold leading-loose text-[blue] lg:text-4xl lg:leading-relaxed xl:pt-[2vw]">
+              See latest jobs <IoIosArrowForward className="text-lg" />
+            </h1>
+          </div>
         </div>
       </div>
     </div>

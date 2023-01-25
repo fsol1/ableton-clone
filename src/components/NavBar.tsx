@@ -19,7 +19,7 @@ const NavBar = () => {
             <path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path>
           </svg>
         </button>
-        <div className="hidden flex-row gap-10 pl-14 text-2xl font-semibold lg:flex">
+        <div className="hidden flex-row gap-7 pl-14 text-lg font-semibold lg:flex xl:gap-10 xl:text-2xl">
           <button>Live</button>
           <button>Push</button>
           <button>Note</button>
@@ -31,7 +31,7 @@ const NavBar = () => {
             More <BsPlus className="text-4xl" />
           </button>
         </div>
-        <div className="ml-auto hidden lg:flex">
+        <div className="ml-auto hidden xl:flex">
           <button className="text-2xl font-semibold text-[blue]">
             Try Live for free
           </button>

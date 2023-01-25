@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const Footer = () => {
   return (
     <footer className="mt-20 border-t-2 lg:mt-[8vw]">
-      <div className="p-20 lg:pl-[8vw] lg:pb-0">
+      <div className="p-20 lg:pl-[8vw] lg:pb-0 xl:mt-[4vw]">
         <svg
           className="block h-10 lg:h-16"
           viewBox="0 0 430 104"
@@ -18,11 +18,13 @@ const Footer = () => {
           </g>
         </svg>
       </div>
-      <div className="p-20 lg:p-[8vw]">
-        <div className="lg:grid lg:grid-cols-3">
+      <div className="p-20 lg:p-[8vw] xl:pt-[5vw]">
+        <div className="lg:grid lg:grid-cols-3 xl:gap-y-10">
           <div className="pt-12 lg:pt-0">
-            <h1 className="text-lg font-semibold">Sign up to our newsletter</h1>
-            <p className="text-lg">
+            <h1 className="text-lg font-semibold xl:text-2xl">
+              Sign up to our newsletter
+            </h1>
+            <p className="text-lg font-light xl:text-2xl">
               Enter your email address to stay up to date with the latest
               offers, tutorials, downloads, surveys and more.
             </p>
@@ -39,13 +41,13 @@ const Footer = () => {
             </div>
           </div>
           <div className="pt-10 lg:-order-1 lg:pt-0">
-            <button className="flex items-center text-lg">
+            <button className="flex items-center text-lg font-light xl:text-2xl">
               Register Live or Push <IoIosArrowForward className="text-sm" />
             </button>
-            <button className="flex items-center text-lg">
+            <button className="flex items-center text-lg font-light xl:text-2xl">
               About Ableton <IoIosArrowForward className="text-sm" />
             </button>
-            <button className="flex items-center text-lg">
+            <button className="flex items-center text-lg font-light xl:text-2xl">
               Jobs <IoIosArrowForward className="text-sm" />
             </button>
 
@@ -136,46 +138,48 @@ const Footer = () => {
             </div>
           </div>
           <div className="pt-10 lg:-order-1 lg:pt-0">
-            <h1 className="text-lg font-semibold">Education</h1>
-            <button className="flex items-center text-lg">
+            <h1 className="text-lg font-semibold xl:text-2xl">Education</h1>
+            <button className="flex items-center text-lg font-light xl:text-2xl">
               Offers for students and teachers{" "}
               <IoIosArrowForward className="text-sm" />
             </button>
-            <button className="flex items-center text-lg">
+            <button className="flex items-center text-lg font-light xl:text-2xl">
               Ableton for the Classroom{" "}
               <IoIosArrowForward className="text-sm" />
             </button>
-            <button className="flex items-center text-lg">
+            <button className="flex items-center text-lg font-light xl:text-2xl">
               Ableton for Colleges and Universities{" "}
               <IoIosArrowForward className="text-sm" />
             </button>
           </div>
           <div className="pt-10">
-            <h1 className="text-lg font-semibold">Community</h1>
-            <button className="flex items-center text-lg">
+            <h1 className="text-lg font-semibold xl:text-2xl">Community</h1>
+            <button className="flex items-center text-lg font-light xl:text-2xl">
               Find Ableton User Groups
               <IoIosArrowForward className="text-sm" />
             </button>
-            <button className="flex items-center text-lg">
+            <button className="flex items-center text-lg font-light xl:text-2xl">
               Find Certified Training <IoIosArrowForward className="text-sm" />
             </button>
-            <button className="flex items-center text-lg">
+            <button className="flex items-center text-lg font-light xl:text-2xl">
               Become a Certified Trainer
               <IoIosArrowForward className="text-sm" />
             </button>
           </div>
           <div className="pt-10">
-            <h1 className="text-lg font-semibold">Distributors</h1>
-            <button className="flex items-center text-lg">
+            <h1 className="text-lg font-semibold xl:text-2xl">Distributors</h1>
+            <button className="flex items-center text-lg font-light xl:text-2xl">
               Find Distributors
               <IoIosArrowForward className="text-sm" />
             </button>
-            <button className="flex items-center text-lg">
+            <button className="flex items-center text-lg font-light xl:text-2xl">
               Try Push in-store <IoIosArrowForward className="text-sm" />
             </button>
           </div>
           <div className="pt-10">
-            <h1 className="text-lg font-semibold">Language and Location</h1>
+            <h1 className="text-lg font-semibold xl:text-2xl">
+              Language and Location
+            </h1>
             <select
               name="language"
               id=""
