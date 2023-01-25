@@ -3,10 +3,10 @@ import { IoIosArrowForward } from "react-icons/io";
 const About = () => {
   return (
     <div>
-      <div className="h-screen px-20">
+      <div className="h-screen px-[9vw]">
         <div className="flex h-5/6 bg-[url('https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=501&ixjsv=1.1.3&q=50')] bg-cover bg-center bg-no-repeat">
           <svg
-            className="m-auto block h-16"
+            className="m-auto block h-16 lg:h-36"
             viewBox="0 0 430 104"
             preserveAspectRatio="xMinYMid"
           >
@@ -20,21 +20,21 @@ const About = () => {
           </svg>
         </div>
       </div>
-      <div className="px-20">
-        <h1 className="-mt-20 text-2xl font-semibold leading-loose">
+      <div className="px-20 pt-[7vw] lg:px-[17vw]">
+        <h1 className="-mt-[9vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           We make <span className="text-[blue]">Live</span>,{" "}
           <span className="text-[blue]">Push</span> and{" "}
           <span className="text-[blue]">Link</span> — unique software and
           hardware for music creation and performance. With these products, our
           community of users creates amazing things.
         </h1>
-        <p className="mt-5 text-lg leading-loose text-gray-600">
+        <p className="mt-5 text-lg leading-loose text-gray-600 lg:text-2xl lg:leading-relaxed">
           Ableton was founded in 1999 and released the first version of Live in
           2001. Our products are used by a community of dedicated musicians,
           sound designers, and artists from across the world.
         </p>
       </div>
-      <div className="mt-20 mb-32 flex h-fit flex-row-reverse items-center">
+      <div className="mt-[8vw] mb-32 flex h-fit flex-row-reverse items-center">
         <div className="flex h-[58vw] w-[58vw] bg-[#FBFFA7]">
           <img
             className="m-auto mr-[8vw] block w-3/5"
@@ -44,18 +44,18 @@ const About = () => {
         </div>
         <div className="-mr-[7vw] h-[41vw] w-[41vw] bg-[url('https://ableton-production.imgix.net/about/photo-1.jpg?dpr=2&fit=crop&h=281&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
       </div>
-      <div className="px-20">
-        <h1 className="-mt-20 text-2xl font-semibold leading-loose">
+      <div className="px-20 pt-[7vw] lg:px-[17vw]">
+        <h1 className="-mt-[7vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           Making music isn’t easy. It takes time, effort, and learning. But when
           you’re in the flow, it’s incredibly rewarding.
         </h1>
-        <p className="mt-5 text-lg leading-loose text-gray-600">
+        <p className="mt-5 text-lg leading-loose text-gray-600 lg:text-2xl lg:leading-relaxed">
           We feel the same way about making Ableton products. The driving force
           behind Ableton is our passion for what we make, and the people we make
           it for.
         </p>
       </div>
-      <div className="m-20 flex h-[47vw] bg-[url('https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=compress%2Cformat')] bg-cover bg-center bg-no-repeat">
+      <div className="mx-[8vw] mt-[8vw] flex h-[47vw] bg-[url('https://ableton-production.imgix.net/about/poster-juanpe.jpg?auto=compress%2Cformat')] bg-cover bg-center bg-no-repeat lg:mx-[17vw] lg:h-[37vw]">
         <div className="m-auto flex h-28 w-28 rounded-full bg-[blue]">
           <svg
             className="m-auto block h-10 pl-2 text-white"
@@ -66,14 +66,14 @@ const About = () => {
           </svg>
         </div>
       </div>
-      <h2 className="-mt-16 ml-24">Why Ableton - Juanpe Bolivar</h2>
-      <div className="px-20">
-        <h1 className="mt-20 text-2xl font-semibold leading-loose">
+      <h2 className="mt-4 ml-24 lg:ml-[18vw]">Why Ableton - Juanpe Bolivar</h2>
+      <div className="px-20 pt-[0vw] lg:px-[17vw]">
+        <h1 className="mt-[8vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           We are more than 350 people from 30 different countries divided
           between our headquarters in Berlin and our offices in Los Angeles and
           Tokyo.
         </h1>
-        <p className="mt-5 text-lg leading-loose text-gray-600">
+        <p className="mt-5 text-lg leading-loose text-gray-600 lg:text-2xl lg:leading-relaxed">
           Most of us are active musicians, producers, and DJs, and many of us
           use Live and Push every day. We come from a wide range of cultural and
           professional backgrounds. Some of us have PhDs, some are self-taught,
@@ -83,7 +83,7 @@ const About = () => {
           culture.
         </p>
       </div>
-      <div className="mb-18 relative mt-20 flex h-fit items-center">
+      <div className="relative mb-[7vw] mt-20 flex h-fit items-center lg:mt-[8vw]">
         <div className="flex h-[70vw] w-[58vw] flex-col bg-[#B6FFC0]">
           <img
             className="ml-[8vw] mt-[8vw] block h-[23vw] w-[30vw] object-cover"
@@ -98,12 +98,12 @@ const About = () => {
         </div>
         <div className="absolute left-[48vw] h-[41vw] w-[41vw] bg-[url('https://ableton-production.imgix.net/about/photo-5.jpg?dpr=2&fit=crop&h=278&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
       </div>
-      <div className="px-20">
-        <h1 className="mt-20 text-2xl font-semibold leading-loose">
+      <div className="px-20 lg:px-[17vw]">
+        <h1 className="mt-[8vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           We believe it takes focus to create truly outstanding instruments. We
           only work on a few products and we strive to make them great.
         </h1>
-        <p className="mt-5 text-lg leading-loose text-gray-600">
+        <p className="mt-5 text-lg leading-loose text-gray-600 lg:text-2xl lg:leading-relaxed">
           Rather than having a one-size-fits-all process, we try to give our
           people what they need to work their magic and grow. We’ve learned that
           achieving the best results comes from building teams that are richly
@@ -112,18 +112,18 @@ const About = () => {
           debate are valued and openly encouraged.
         </p>
       </div>
-      <div className="m-20 flex h-[47vw] bg-[url('https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?auto=format&dpr=2&fit=crop&fm=jpg&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
-      <div className="px-20">
-        <h1 className="mt-20 text-2xl font-semibold leading-loose">
+      <div className="mx-[8vw] mt-[8vw] flex h-[47vw] bg-[url('https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?auto=format&dpr=2&fit=crop&fm=jpg&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
+      <div className="px-20 lg:px-[17vw]">
+        <h1 className="mt-[8vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           We’re passionate about what we do, but we’re equally passionate about
           improving who we are.
         </h1>
-        <p className="mt-5 text-lg leading-loose text-gray-600">
+        <p className="mt-5 text-lg leading-loose text-gray-600 lg:text-2xl lg:leading-relaxed">
           We work hard to foster an environment where people can grow both
           personally and professionally, and we strive to create a wealth of
           opportunities to learn from and with each other.
         </p>
-        <p className="mt-5 text-lg leading-loose text-gray-600">
+        <p className="mt-5 text-lg leading-loose text-gray-600 lg:text-2xl lg:leading-relaxed">
           Alongside an internal training program, employees are actively
           supported in acquiring new knowledge and skills, and coached on
           applying these in their daily work. In addition, staff-organized
@@ -131,7 +131,7 @@ const About = () => {
           production techniques and best practices.
         </p>
       </div>
-      <div className="mb-18 relative mt-20 flex h-fit items-center">
+      <div className="relative mb-[7vw] mt-20 flex h-fit items-center lg:mt-[8vw]">
         <div className="mx-auto flex h-[58vw] w-[70vw] bg-[#D5B3FF]">
           <img
             className="my-auto -ml-[8vw] block h-[25vw] w-[33vw] object-cover"
@@ -141,13 +141,13 @@ const About = () => {
         </div>
         <div className="absolute right-0 h-[41vw] w-[41vw] bg-[url('https://ableton-production.imgix.net/about/photo-7.jpg?dpr=2&fit=crop&h=265&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
       </div>
-      <div className="px-20">
-        <h1 className="mt-20 text-2xl font-semibold leading-loose">
+      <div className="px-20 lg:px-[15vw]">
+        <h1 className="mt-[8vw] text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
           We want our employees to love it here. Since we’re looking for
           exceptional talent from around the world, we will do everything we can
           to make your transition as easy as possible.
         </h1>
-        <p className="mt-5 text-lg leading-loose text-gray-600">
+        <p className="mt-5 text-lg leading-loose text-gray-600 lg:text-2xl lg:leading-relaxed">
           If you're joining us in Berlin, we'll help with relocation and
           paperwork. We’ll even provide you with free German or English lessons.
           Plus, working in Germany means you can expect comprehensive health
@@ -157,14 +157,14 @@ const About = () => {
           variety of fun, informal small-group activities.
         </p>
       </div>
-      <div className="m-20 mb-0 flex h-[50vw] bg-[url('https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&dpr=2&fit=crop&h=360&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
-      <div className="mx-20 h-[33vw] bg-[#B1C5FF]">
-        <div className="p-20">
-          <h1 className="text-2xl font-semibold leading-loose">
+      <div className="mx-[8vw] mt-[8vw] mb-0 flex h-[50vw] bg-[url('https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&dpr=2&fit=crop&h=360&ixjsv=1.1.3')] bg-cover bg-center bg-no-repeat"></div>
+      <div className="mx-[8vw] h-[33vw] bg-[#B1C5FF] lg:h-[29vw]">
+        <div className="p-20 lg:px-[8vw] lg:pt-[8vw]">
+          <h1 className="text-2xl font-semibold leading-loose lg:text-4xl lg:leading-relaxed">
             We’re really proud of the work we’ve done so far. But there’s so
             much more to come. If you’d like to be a part of it, please join us.
           </h1>
-          <h1 className="flex items-center text-2xl font-semibold leading-loose text-[blue]">
+          <h1 className="flex items-center text-2xl font-semibold leading-loose text-[blue] lg:text-4xl lg:leading-relaxed">
             See latest jobs <IoIosArrowForward className="text-lg" />
           </h1>
         </div>

@@ -1,7 +1,7 @@
 const Nav = () => {
   return (
     <nav>
-      <div className="flex gap-6 p-6">
+      <div className="flex gap-6 p-7 lg:py-[1.5vw] lg:pl-[3vw]">
         <button className="text-[#FF764D]">About</button>
         <button>Jobs</button>
         <button>Apprenticeships</button>
