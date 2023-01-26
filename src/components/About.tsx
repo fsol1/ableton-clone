@@ -2,7 +2,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const About = () => {
   return (
-    <div>
+    <div className="font-main">
       <div className="h-screen px-[9vw]">
         <div className="flex h-5/6 bg-[url('https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=2&fit=crop&fm=jpg&h=501&ixjsv=1.1.3&q=50')] bg-cover bg-center bg-no-repeat">
           <svg

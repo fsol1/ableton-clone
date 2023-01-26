@@ -2,7 +2,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <footer className="mt-20 border-t-2 lg:mt-[8vw]">
+    <footer className="mt-20 border-t-2 font-main lg:mt-[8vw]">
       <div className="p-20 lg:pl-[8vw] lg:pb-0 xl:mt-[4vw]">
         <svg
           className="block h-10 lg:h-16"
@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="p-20 lg:p-[8vw] xl:pt-[5vw]">
         <div className="lg:grid lg:grid-cols-3 xl:gap-y-10">
           <div className="pt-12 lg:pt-0">
-            <h1 className="text-lg font-semibold xl:text-2xl">
+            <h1 className="text-lg font-extrabold xl:text-2xl">
               Sign up to our newsletter
             </h1>
             <p className="text-lg font-light xl:text-2xl">
